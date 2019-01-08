@@ -10,7 +10,6 @@ export class AppComponent implements OnInit {
   title = 'angular-elasticsearch';
 
   constructor(private _serviceElasticsearch: ElasticsearchService) {
-
   }
 
   ngOnInit(): void {
