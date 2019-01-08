@@ -4,7 +4,6 @@
 
 export const environment = {
   production: false,
-  elasticsearchApi: '/elasticsearch',
   elasticsearchHost: 'http://localhost:9200'
 };
 
