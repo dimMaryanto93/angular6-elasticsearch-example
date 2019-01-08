@@ -10,7 +10,6 @@ export class ElasticsearchService {
   private client: Client;
 
   constructor() {
-
   }
 
   get getClient(): Client {
