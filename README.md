@@ -16,7 +16,6 @@ npm install
 npm start
 ```
 
-
 ## Data migration
 
 Open Kibana [http://localhost:5601](http://localhost:5601) -> Tab Dev Tools
