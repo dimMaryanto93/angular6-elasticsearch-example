@@ -2,9 +2,7 @@ import {Injectable} from '@angular/core';
 import {Client} from 'elasticsearch-browser';
 import {environment} from '../../environments/environment';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class ElasticsearchService {
 
   private client: Client;

@@ -3,6 +3,7 @@ import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {CommonModule} from '@angular/common';
+import {ElasticsearchService} from './service/elasticsearch.service';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,7 @@ import {CommonModule} from '@angular/common';
     BrowserModule,
     CommonModule
   ],
-  providers: [],
+  providers: [ElasticsearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
